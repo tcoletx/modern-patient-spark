@@ -69,7 +69,7 @@ const reviews = [
   },
   {
     quote:
-      "I had a really great SMILE Pro experience here. Dr. Khambati and all the staff were extremely efficient, professional, and always responded to my questions very quickly, which made the whole process feel smooth and reassuring. The surgery itself was very fast. I had a relatively high prescription, so I was a bit nervous, but everything went really well and I felt well taken care of throughout. The consultation was also free, which made it easy to come in without any pressure.",
+      "I had a great SMILE Pro experience here. Dr. Khambati and the staff were extremely efficient, professional, and responsive, which made the process feel smooth and reassuring. I had a high prescription, so I was nervous, but everything went well and I felt well taken care of throughout. And the free consultation made it easy to come in without any pressure.",
     name: "E.H.",
   },
   {
