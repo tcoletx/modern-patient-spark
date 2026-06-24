@@ -59,39 +59,33 @@ const services = [
 const reviews = [
   {
     quote:
-      "Awesome doctor and awesome team. Everyone is super friendly, re-assured any anxieties about the surgery, and I got 20/20 vision almost immediately.",
-    name: "Jordan M.",
-    procedure: "LASIK Patient",
+      "I have been a patient of Dr. Khambati for several years and trust him and his entire staff with my most valuable possession, my eyes. As a doctor he always stays up on the newest treatment to enhance my visual needs along with the dreaded old age eye decline. As a professional he has exceeded my greatest expectations. He is an exceptional physician.",
+    name: "R.S.",
   },
   {
     quote:
-      "Dr. Khambati and his staff are very welcoming. They explained everything about my LASIK and answered all my questions. Within a few weeks I was glasses free.",
-    name: "Priya S.",
-    procedure: "SMILE Pro Patient",
+      "The whole process was super simple. I had a pretty high prescription so I was unsure if I would be a candidate for LASIK. Dr. Khambati and his staff were so great and made the surgery and the recovery process so easy. Couldn't recommend this place more!",
+    name: "M.B.",
   },
   {
     quote:
-      "From the front desk I was greeted with positivity and respect. The team made me feel comfortable and confident. 11/10 — the best.",
-    name: "Marcus W.",
-    procedure: "LASIK Patient",
+      "I had a really great SMILE Pro experience here. Dr. Khambati and all the staff were extremely efficient, professional, and always responded to my questions very quickly, which made the whole process feel smooth and reassuring. The surgery itself was very fast. I had a relatively high prescription, so I was a bit nervous, but everything went really well and I felt well taken care of throughout. The consultation was also free, which made it easy to come in without any pressure.",
+    name: "E.H.",
   },
   {
     quote:
-      "Very nice, smiled, and made sure all my questions were answered. They made me feel calm about getting my procedure done.",
-    name: "Elena R.",
-    procedure: "Cataract Patient",
+      "I appreciate Dr. Khambati's humility and his approachable manner in dealing with his patients. Consequently, I am deeply grateful for his confidence in his work and his assurance regarding the results both before and after the procedure.",
+    name: "F.A.",
   },
   {
     quote:
-      "Professional, caring, and genuinely invested in my outcome. I can finally see the alarm clock in the morning — life-changing.",
-    name: "David K.",
-    procedure: "LASIK Patient",
+      "Although I'm only one day post surgery….it was great waking up and being able to see the clock across the room! Staff is super friendly and helpful. My overall experience has been excellent!",
+    name: "L.B.",
   },
   {
     quote:
-      "Dr. Alisha took the time to walk me through every option. I never felt rushed and the results have been incredible.",
-    name: "Sara L.",
-    procedure: "PRK Patient",
+      "I had a great experience with Dr. Khambati. He was very calm and he answered my questions thoroughly. Everyone at the office was great and made sure I felt comfortable with the process. I'm the third person in my family to get surgery here and we have all had excellent results.",
+    name: "Z.B.",
   },
 ];
 
@@ -481,7 +475,6 @@ function Reviews() {
               </div>
               <figcaption className="mt-6 border-t border-border pt-4">
                 <div className="font-semibold text-foreground">{r.name}</div>
-                <div className="text-base text-muted-foreground">{r.procedure}</div>
               </figcaption>
             </figure>
           ))}
