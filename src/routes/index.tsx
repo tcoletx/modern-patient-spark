@@ -46,11 +46,9 @@ const benefitPoints = [
 const services = [
   { name: "LASIK", blurb: "Quick, virtually painless laser vision correction with an excellent track record." },
   { name: "SMILE Pro", blurb: "Bladeless, all-laser correction for nearsightedness and astigmatism." },
-  { name: "PRK", blurb: "A trusted alternative for patients who aren't ideal LASIK candidates." },
   { name: "Cataract Surgery", blurb: "Premium lens options to restore crisp, vibrant vision." },
   { name: "Glaucoma Care", blurb: "Early diagnosis, medical management, and laser treatment." },
-  { name: "Retina Treatment", blurb: "Specialized care for macular and retinal conditions." },
-  { name: "Cornea Care", blurb: "Comprehensive treatment for corneal disease and dystrophies." },
+  { name: "Medical Eye Care", blurb: "Comprehensive exams and treatment for dry eye, diabetic eye disease, cornea, and retinal conditions." },
   { name: "Eyelid Surgery", blurb: "Blepharoplasty for a refreshed, more youthful appearance." },
   { name: "Optical Shop", blurb: "In-house edging lab with frames for every lifestyle." },
 ];
