@@ -123,20 +123,20 @@ function Header() {
           <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-brand-navy text-primary-foreground">
             <EyeMark />
           </div>
-          <div className="leading-tight min-w-0">
-            <div className="font-display text-lg font-semibold text-brand-navy truncate">Lake Lazer</div>
+          <div className="leading-tight whitespace-nowrap">
+            <div className="font-display text-lg font-semibold text-brand-navy">Lake Lazer</div>
             <div className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">Eye Center</div>
           </div>
         </a>
-        <nav className="hidden xl:flex items-center gap-7 text-sm font-medium text-foreground/80">
+        <nav className="hidden xl:flex items-center gap-6 text-sm font-medium text-foreground/80 whitespace-nowrap">
           {navItems.map((item) => (
             <a key={item} href="#" className="hover:text-brand-coral transition-colors">
               {item}
             </a>
           ))}
         </nav>
-        <div className="hidden md:flex items-center gap-3">
-          <a href="tel:5867923891" className="text-sm font-semibold text-brand-navy hover:text-brand-coral">
+        <div className="hidden md:flex items-center gap-3 whitespace-nowrap">
+          <a href="tel:5867923891" className="hidden 2xl:inline text-sm font-semibold text-brand-navy hover:text-brand-coral">
             586-792-3891
           </a>
           <a href="#book" className="rounded-full bg-brand-coral px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_var(--brand-coral)] hover:brightness-105 transition">
