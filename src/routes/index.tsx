@@ -575,3 +575,47 @@ function Footer() {
     </footer>
   );
 }
+
+function CTA() {
+  return (
+    <section className="relative overflow-hidden bg-brand-navy py-20 sm:py-28">
+      <div
+        aria-hidden
+        className="absolute inset-0 opacity-60"
+        style={{
+          background:
+            "radial-gradient(60% 80% at 80% 20%, oklch(0.72 0.16 32 / 0.35) 0%, transparent 60%), radial-gradient(50% 70% at 10% 90%, oklch(0.55 0.12 230 / 0.4) 0%, transparent 65%)",
+        }}
+      />
+      <div className="relative mx-auto max-w-5xl px-5 text-center text-white lg:px-8">
+        <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] backdrop-blur">
+          <span className="h-1.5 w-1.5 rounded-full bg-brand-coral" />
+          Your clearest vision starts here
+        </span>
+        <h2 className="mt-6 font-display text-4xl font-semibold leading-[1.05] sm:text-5xl lg:text-6xl">
+          Stop dreaming about clear vision.{" "}
+          <span className="italic text-brand-coral-soft">Start living it.</span>
+        </h2>
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80">
+          Book your free, no-pressure consultation and find out why thousands of Metro Detroit
+          patients trust Lake Lazer with their eyes.
+        </p>
+        <div className="mt-9 flex flex-wrap justify-center gap-3">
+          <a
+            href="#book"
+            className="inline-flex items-center justify-center rounded-full bg-brand-coral px-7 py-3.5 text-base font-semibold text-white shadow-[0_18px_40px_-12px_oklch(0.72_0.16_32_/_0.7)] hover:brightness-105 transition"
+          >
+            Book Your Free Consultation
+            <Arrow />
+          </a>
+          <a
+            href="tel:5867923891"
+            className="inline-flex items-center justify-center rounded-full border border-white/40 bg-white/10 px-7 py-3.5 text-base font-semibold text-white backdrop-blur hover:bg-white hover:text-brand-navy transition"
+          >
+            Call 586-792-3891
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
