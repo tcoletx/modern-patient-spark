@@ -127,7 +127,7 @@ function Header() {
             <div className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">Eye Center</div>
           </div>
         </a>
-        <nav className="hidden xl:flex items-center gap-6 text-sm font-medium text-foreground/80 whitespace-nowrap">
+        <nav className="hidden xl:flex items-center gap-6 text-base font-medium text-foreground/80 whitespace-nowrap">
           {navItems.map((item) => (
             <a key={item} href="#" className="hover:text-brand-coral transition-colors">
               {item}
@@ -135,10 +135,10 @@ function Header() {
           ))}
         </nav>
         <div className="hidden md:flex items-center gap-3 whitespace-nowrap">
-          <a href="tel:5867923891" className="hidden 2xl:inline text-sm font-semibold text-brand-navy hover:text-brand-coral">
+          <a href="tel:5867923891" className="hidden 2xl:inline text-base font-semibold text-brand-navy hover:text-brand-coral">
             586-792-3891
           </a>
-          <a href="#book" className="rounded-full bg-brand-coral px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_var(--brand-coral)] hover:brightness-105 transition">
+          <a href="#book" className="rounded-full bg-brand-coral px-5 py-2.5 text-base font-semibold text-white shadow-[0_8px_24px_-8px_var(--brand-coral)] hover:brightness-105 transition">
             Book Now
           </a>
         </div>
@@ -154,7 +154,7 @@ function Header() {
       </div>
       {open && (
         <div className="xl:hidden border-t border-border bg-background">
-          <div className="mx-auto max-w-7xl px-5 py-4 flex flex-col gap-3 text-sm font-medium">
+          <div className="mx-auto max-w-7xl px-5 py-4 flex flex-col gap-3 text-base font-medium">
             {navItems.map((item) => (
               <a key={item} href="#" className="py-1.5 text-foreground/80">{item}</a>
             ))}
@@ -218,7 +218,7 @@ function Hero() {
               Book Consultation
             </a>
           </div>
-          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-white/70">
+          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-base text-white/70">
             <div className="flex items-center gap-2"><Stars /> 4.9 / 5 from 800+ patients</div>
             <div>Free consultations · Financing available</div>
           </div>
@@ -270,15 +270,15 @@ function Benefits() {
                     {b.stat}
                     <span className="text-xl text-brand-coral">{b.unit}</span>
                   </div>
-                  <p className="mt-2 text-sm text-muted-foreground">{b.label}</p>
+                  <p className="mt-2 text-base text-muted-foreground">{b.label}</p>
                 </div>
               ))}
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="#book" className="inline-flex items-center rounded-full bg-brand-navy px-6 py-3 text-sm font-semibold text-white hover:bg-brand-navy-deep transition">
+              <a href="#book" className="inline-flex items-center rounded-full bg-brand-navy px-6 py-3 text-base font-semibold text-white hover:bg-brand-navy-deep transition">
                 Book Your Free Consultation
               </a>
-              <a href="#calculator" className="inline-flex items-center rounded-full border border-brand-navy/20 bg-white px-6 py-3 text-sm font-semibold text-brand-navy hover:border-brand-coral hover:text-brand-coral transition">
+              <a href="#calculator" className="inline-flex items-center rounded-full border border-brand-navy/20 bg-white px-6 py-3 text-base font-semibold text-brand-navy hover:border-brand-coral hover:text-brand-coral transition">
                 Calculate your savings →
               </a>
             </div>
@@ -353,9 +353,9 @@ function Surgeons() {
                   ))}
                 </div>
                 <h3 className="mt-4 font-display text-2xl font-semibold text-brand-navy">{d.name}</h3>
-                <p className="text-sm font-medium uppercase tracking-wider text-brand-coral">{d.role}</p>
+                <p className="text-base font-medium uppercase tracking-wider text-brand-coral">{d.role}</p>
                 <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{d.bio}</p>
-                <a href="#" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-coral">
+                <a href="#" className="mt-6 inline-flex items-center gap-2 text-base font-semibold text-brand-navy hover:text-brand-coral">
                   Read full bio <span aria-hidden>→</span>
                 </a>
               </div>
@@ -421,7 +421,7 @@ function Services() {
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-white/80">
                 {services[active].blurb}
               </p>
-              <a href="#" className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-coral px-6 py-3 text-sm font-semibold text-white hover:brightness-105 transition">
+              <a href="#" className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-coral px-6 py-3 text-base font-semibold text-white hover:brightness-105 transition">
                 Learn more about {services[active].name}
                 <Arrow />
               </a>
@@ -448,7 +448,7 @@ function Reviews() {
           </div>
           <div className="flex items-center gap-3">
             <Stars />
-            <span className="text-sm font-medium text-muted-foreground">4.9 average · 800+ reviews</span>
+            <span className="text-base font-medium text-muted-foreground">4.9 average · 800+ reviews</span>
           </div>
         </div>
 
@@ -463,14 +463,14 @@ function Reviews() {
               </div>
               <figcaption className="mt-6 border-t border-border pt-4">
                 <div className="font-semibold text-foreground">{r.name}</div>
-                <div className="text-sm text-muted-foreground">{r.procedure}</div>
+                <div className="text-base text-muted-foreground">{r.procedure}</div>
               </figcaption>
             </figure>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <a href="#" className="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-coral">
+          <a href="#" className="inline-flex items-center gap-2 text-base font-semibold text-brand-navy hover:text-brand-coral">
             Read more patient stories <span aria-hidden>→</span>
           </a>
         </div>
@@ -495,8 +495,8 @@ function Locations() {
           {locations.map((l) => (
             <a key={l.city} href="#" className="group block rounded-2xl border border-border bg-white p-7 transition hover:border-brand-coral hover:shadow-[var(--shadow-soft)]">
               <div className="font-display text-2xl font-semibold text-brand-navy">{l.city}</div>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{l.address}</p>
-              <div className="mt-5 flex items-center gap-2 text-sm font-semibold text-brand-coral">
+              <p className="mt-3 text-base leading-relaxed text-muted-foreground">{l.address}</p>
+              <div className="mt-5 flex items-center gap-2 text-base font-semibold text-brand-coral">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92V21a1 1 0 01-1.11 1 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.86 19.86 0 013.19 4.1 1 1 0 014.18 3h4.09a1 1 0 011 .75 12 12 0 00.66 2.6 1 1 0 01-.23 1L7.91 9.09a16 16 0 006 6l1.7-1.79a1 1 0 011-.23 12 12 0 002.6.66 1 1 0 01.75 1z" /></svg>
                 586-792-3891
               </div>
@@ -518,22 +518,22 @@ function Footer() {
               <div className="grid h-10 w-10 place-items-center rounded-full bg-white/10"><EyeMark /></div>
               <div className="font-display text-xl text-white">Lake Lazer Eye Center</div>
             </div>
-            <p className="mt-4 max-w-sm text-sm text-white/60">
+            <p className="mt-4 max-w-sm text-base text-white/60">
               Specializing in diseases & surgery of the eye. Serving Metro Detroit for over 20 years.
             </p>
           </div>
           <div>
-            <div className="text-sm font-semibold text-white">Explore</div>
-            <ul className="mt-4 space-y-2 text-sm">
+            <div className="text-base font-semibold text-white">Explore</div>
+            <ul className="mt-4 space-y-2 text-base">
               {navItems.slice(0, 5).map((n) => (
                 <li key={n}><a href="#" className="hover:text-brand-coral-soft">{n}</a></li>
               ))}
             </ul>
           </div>
           <div>
-            <div className="text-sm font-semibold text-white">Get in touch</div>
+            <div className="text-base font-semibold text-white">Get in touch</div>
             <a href="tel:5867923891" className="mt-4 block text-lg font-semibold text-white">586-792-3891</a>
-            <a href="#book" className="mt-4 inline-flex items-center rounded-full bg-brand-coral px-5 py-2.5 text-sm font-semibold text-white hover:brightness-105">
+            <a href="#book" className="mt-4 inline-flex items-center rounded-full bg-brand-coral px-5 py-2.5 text-base font-semibold text-white hover:brightness-105">
               Book a Consultation
             </a>
           </div>
