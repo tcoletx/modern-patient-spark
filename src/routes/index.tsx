@@ -34,7 +34,7 @@ const benefits = [
   { stat: "<15", unit: "min", label: "Quick, in-office procedure" },
   { stat: "20+", unit: "yrs", label: "Of refractive surgery experience" },
   { stat: "30k", unit: "+", label: "Successful surgeries performed" },
-  { stat: "100%", unit: "", label: "Bladeless with ZEISS SMILE Pro" },
+  { stat: "100%", unit: "", label: "Bladeless, All-Laser Procedures" },
 ];
 
 const benefitPoints = [
