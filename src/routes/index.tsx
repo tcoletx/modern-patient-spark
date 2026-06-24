@@ -598,7 +598,7 @@ function CTA() {
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80">
           Book your free, no-pressure consultation and find out why thousands of Metro Detroit
-          patients trust Lake Lazer with their eyes.
+          patients trust Lake Lazer Eye Center with their eyes.
         </p>
         <div className="mt-9 flex flex-wrap justify-center gap-3">
           <a
