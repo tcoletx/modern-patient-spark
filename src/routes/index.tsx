@@ -27,7 +27,7 @@ const navItems = [
 ];
 
 const benefits = [
-  { stat: "<15", unit: "min", label: "Per eye — quick, in-office procedure" },
+  { stat: "<15", unit: "min", label: "Quick, in-office procedure" },
   { stat: "20+", unit: "yrs", label: "Of refractive surgery experience" },
   { stat: "30k", unit: "+", label: "Successful surgeries performed" },
   { stat: "100%", unit: "", label: "Bladeless with ZEISS SMILE Pro" },
@@ -37,7 +37,7 @@ const benefitPoints = [
   "Treats nearsightedness, farsightedness & astigmatism",
   "Long-term cost savings vs. glasses & contacts",
   "Most patients see 20/20 the next day",
-  "Freedom from glasses and contacts for good",
+  "Freedom from glasses and contacts",
   "Free, no-pressure LASIK consultations",
   "Among the highest success rates in Michigan",
 ];
