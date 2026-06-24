@@ -3,6 +3,9 @@ import { useState } from "react";
 import heroImg from "@/assets/hero.jpg";
 import drShabbirAsset from "@/assets/dr-shabbir.jpg.asset.json";
 const drShabbir = drShabbirAsset.url;
+import locClintonAsset from "@/assets/loc-clinton.jpg.asset.json";
+import locSouthfieldAsset from "@/assets/loc-southfield.jpg.asset.json";
+import locMilfordAsset from "@/assets/loc-milford.jpg.asset.json";
 import drAlisha from "@/assets/dr-alisha.jpg";
 
 export const Route = createFileRoute("/")({
@@ -93,9 +96,24 @@ const reviews = [
 ];
 
 const locations = [
-  { city: "Clinton Township", address: "35776 Harper Ave., Clinton Twp., MI 48035 (Olivia Commons)" },
-  { city: "Southfield", address: "25811 W. 12 Mile Rd, Ste 100, Southfield, MI 48034" },
-  { city: "Milford", address: "1800 N. Milford Rd., Suite 300, Milford, MI 48381" },
+  {
+    city: "Clinton Township",
+    address: "35776 Harper Ave., Clinton Twp., MI 48035 (Olivia Commons)",
+    image: locClintonAsset.url,
+    href: "https://useemore.com/our-locations/clinton-township-office/",
+  },
+  {
+    city: "Southfield",
+    address: "25811 W. 12 Mile Rd, Ste 100, Southfield, MI 48034",
+    image: locSouthfieldAsset.url,
+    href: "https://useemore.com/our-locations/southfield-office/",
+  },
+  {
+    city: "Milford",
+    address: "1800 N. Milford Rd., Suite 300, Milford, MI 48381",
+    image: locMilfordAsset.url,
+    href: "https://useemore.com/our-locations/milford-office/",
+  },
 ];
 
 function Index() {
@@ -493,12 +511,29 @@ function Locations() {
         </div>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {locations.map((l) => (
-            <a key={l.city} href="#" className="group block rounded-2xl border border-border bg-white p-7 transition hover:border-brand-coral hover:shadow-[var(--shadow-soft)]">
-              <div className="font-display text-2xl font-semibold text-brand-navy">{l.city}</div>
-              <p className="mt-3 text-base leading-relaxed text-muted-foreground">{l.address}</p>
-              <div className="mt-5 flex items-center gap-2 text-base font-semibold text-brand-coral">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92V21a1 1 0 01-1.11 1 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.86 19.86 0 013.19 4.1 1 1 0 014.18 3h4.09a1 1 0 011 .75 12 12 0 00.66 2.6 1 1 0 01-.23 1L7.91 9.09a16 16 0 006 6l1.7-1.79a1 1 0 011-.23 12 12 0 002.6.66 1 1 0 01.75 1z" /></svg>
-                586-792-3891
+            <a
+              key={l.city}
+              href={l.href}
+              className="group block overflow-hidden rounded-2xl border border-border bg-white transition hover:border-brand-coral hover:shadow-[var(--shadow-soft)]"
+            >
+              <div className="aspect-[16/10] overflow-hidden bg-muted">
+                <img
+                  src={l.image}
+                  alt={`${l.city} office`}
+                  loading="lazy"
+                  className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]"
+                />
+              </div>
+              <div className="p-7">
+                <div className="font-display text-2xl font-semibold text-brand-navy">{l.city}</div>
+                <p className="mt-3 text-base leading-relaxed text-muted-foreground">{l.address}</p>
+                <div className="mt-5 flex items-center gap-2 text-base font-semibold text-brand-coral">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92V21a1 1 0 01-1.11 1 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.86 19.86 0 013.19 4.1 1 1 0 014.18 3h4.09a1 1 0 011 .75 12 12 0 00.66 2.6 1 1 0 01-.23 1L7.91 9.09a16 16 0 006 6l1.7-1.79a1 1 0 011-.23 12 12 0 002.6.66 1 1 0 01.75 1z" /></svg>
+                  586-792-3891
+                </div>
+                <div className="mt-4 inline-flex items-center gap-2 text-base font-semibold text-brand-navy group-hover:text-brand-coral">
+                  View location <span aria-hidden>→</span>
+                </div>
               </div>
             </a>
           ))}
