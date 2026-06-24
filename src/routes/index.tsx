@@ -351,15 +351,15 @@ function Surgeons() {
             refractive technology to every patient.
           </p>
         </div>
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div className="mt-14 flex flex-col gap-8">
           {docs.map((d) => (
-            <article key={d.name} className="group overflow-hidden rounded-3xl bg-brand-sand shadow-[var(--shadow-soft)]">
-              <div className="aspect-[16/10] overflow-hidden bg-muted">
+            <article key={d.name} className="group overflow-hidden rounded-3xl bg-brand-sand shadow-[var(--shadow-soft)] grid sm:grid-cols-[minmax(0,260px)_1fr] md:grid-cols-[minmax(0,320px)_1fr]">
+              <div className="bg-muted sm:h-full">
                 <img
                   src={d.img}
                   alt={`Portrait of ${d.name}`}
                   loading="lazy"
-                  className="h-full w-full object-cover object-top transition duration-700 group-hover:scale-[1.03]"
+                  className="h-full w-full object-contain object-center sm:object-top"
                 />
               </div>
               <div className="p-7 sm:p-8">
