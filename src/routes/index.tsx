@@ -27,7 +27,7 @@ const navItems = [
 ];
 
 const benefits = [
-  { stat: "<15", unit: "min", label: "Per eye — quick, in-office procedure" },
+  { stat: "<15", unit: "min", label: "Quick, in-office procedure" },
   { stat: "20+", unit: "yrs", label: "Of refractive surgery experience" },
   { stat: "30k", unit: "+", label: "Successful surgeries performed" },
   { stat: "100%", unit: "", label: "Bladeless with ZEISS SMILE Pro" },
@@ -37,7 +37,7 @@ const benefitPoints = [
   "Treats nearsightedness, farsightedness & astigmatism",
   "Long-term cost savings vs. glasses & contacts",
   "Most patients see 20/20 the next day",
-  "Freedom from glasses and contacts for good",
+  "Freedom from glasses and contacts",
   "Free, no-pressure LASIK consultations",
   "Among the highest success rates in Michigan",
 ];
@@ -256,12 +256,13 @@ function Benefits() {
             <span className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-coral">
               LASIK Eye Surgery
             </span>
-            <h2 className="mt-4 font-display text-4xl font-semibold text-brand-navy sm:text-5xl">
-              Why patients choose <em className="not-italic text-brand-coral">LASIK</em> at Lake Lazer.
+            <h2 className="mt-4 font-display text-4xl font-semibold text-brand-navy sm:text-5xl whitespace-pre-line">
+              Why patients choose <em className="not-italic text-brand-coral">SoftTouch LASIK</em>{"\u00a0"}and{"\n"}
+              SMILE Pro{"\u00a0"}at Lake Lazer.{"\n"}
             </h2>
             <p className="mt-5 max-w-lg text-lg text-muted-foreground">
               Dreaming of life without contacts? Our free consultations help you discover whether
-              LASIK or SMILE Pro is right for you — no pressure, just clear answers.
+              SoftTouch LASIK or SMILE Pro is right for you — no pressure, just clear answers.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-6">
               {benefits.map((b) => (
