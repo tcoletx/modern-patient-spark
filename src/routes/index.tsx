@@ -120,6 +120,7 @@ function Index() {
       <Services />
       <Reviews />
       <Locations />
+      <CTA />
       <Footer />
     </div>
   );
