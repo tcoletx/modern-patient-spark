@@ -338,12 +338,12 @@ function Surgeons() {
         <div className="mt-14 grid gap-8 md:grid-cols-2">
           {docs.map((d) => (
             <article key={d.name} className="group overflow-hidden rounded-3xl bg-brand-sand shadow-[var(--shadow-soft)]">
-              <div className="aspect-[4/5] overflow-hidden bg-muted">
+              <div className="aspect-[16/10] overflow-hidden bg-muted">
                 <img
                   src={d.img}
                   alt={`Portrait of ${d.name}`}
                   loading="lazy"
-                  className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.03]"
+                  className="h-full w-full object-cover object-top transition duration-700 group-hover:scale-[1.03]"
                 />
               </div>
               <div className="p-7 sm:p-8">
