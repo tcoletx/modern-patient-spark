@@ -394,8 +394,8 @@ function Services() {
           <span className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-coral-soft">
             Comprehensive Eye Care
           </span>
-          <h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl">
-            Every service, under one roof.
+          <h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl whitespace-pre-line">
+            Excellent eye care,{"\u00a0\n"}under one roof.
           </h2>
           <p className="mt-4 text-white/70">
             From laser vision correction to medical and cosmetic eye care — explore what we offer.
