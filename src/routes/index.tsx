@@ -256,12 +256,12 @@ function Benefits() {
             <span className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-coral">
               LASIK Eye Surgery
             </span>
-            <h2 className="mt-4 font-display text-4xl font-semibold text-brand-navy sm:text-5xl">
-              Why patients choose <em className="not-italic text-brand-coral">LASIK</em> at Lake Lazer.
+            <h2 className="mt-4 font-display text-4xl font-semibold text-brand-navy sm:text-5xl whitespace-pre-line">
+              Why patients choose <em className="not-italic text-brand-coral">SoftTouch LASIK</em> and{"\n"}SMILE Pro{"\u00a0"}at Lake Lazer.
             </h2>
             <p className="mt-5 max-w-lg text-lg text-muted-foreground">
               Dreaming of life without contacts? Our free consultations help you discover whether
-              LASIK or SMILE Pro is right for you — no pressure, just clear answers.
+              SoftTouch LASIK or SMILE Pro is right for you — no pressure, just clear answers.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-6">
               {benefits.map((b) => (
