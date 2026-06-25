@@ -210,7 +210,7 @@ function Hero() {
           </span>
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] sm:text-6xl lg:text-[64px]">
             Big-city technology.{" "}
-            <span className="block italic text-brand-coral-soft">Hometown Care.</span>
+            <span className="block italic text-brand-coral-soft">Hometown care.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/80 sm:text-xl">
             At Lake Lazer Eye Center, you'll find the warmth of a family practice combined with the precision of advanced vision correction technology — because your eyes deserve both.{"\u00a0"}
