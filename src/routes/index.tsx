@@ -203,14 +203,14 @@ function Hero() {
         style={{ background: "linear-gradient(100deg, oklch(0.22 0.06 252 / 0.92) 0%, oklch(0.22 0.06 252 / 0.55) 45%, transparent 75%)" }}
       />
       <div className="relative mx-auto max-w-7xl px-5 py-20 sm:py-28 lg:py-36 lg:px-8">
-        <div className="max-w-2xl text-white">
+        <div className="max-w-xl text-white">
           <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-brand-coral" />
             {"\u00a0\n30,000+ PROCEDURES PERFORMED"}
           </span>
-          <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] sm:text-6xl lg:text-7xl">
+          <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] sm:text-6xl lg:text-[64px]">
             Big-city technology.{" "}
-            <span className="italic text-brand-coral-soft">Hometown Care.</span>
+            <span className="block italic text-brand-coral-soft">Hometown Care.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/80 sm:text-xl">
             At Lake Lazer Eye Center, you'll find the warmth of a family practice combined with the precision of advanced vision correction technology — because your eyes deserve both.{"\u00a0"}
