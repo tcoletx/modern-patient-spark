@@ -401,7 +401,7 @@ function Services() {
           {/* List */}
           <ul className="divide-y divide-white/10 border-y border-white/10">
             {services.map((s, i) => (
-              <li key={s.name}>
+              <li key={s?.name}>
                 <button
                   onClick={() => setActive(i)}
                   onMouseEnter={() => setActive(i)}
@@ -413,7 +413,7 @@ function Services() {
                     <span className={`font-mono text-xs ${active === i ? "text-brand-coral" : "text-white/40"}`}>
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <span className="font-display text-xl sm:text-2xl">{s.name}</span>
+                    <span className="font-display text-xl sm:text-2xl">{s?.name}</span>
                   </span>
                   <span className={`transition ${active === i ? "translate-x-1 text-brand-coral" : "text-white/40"}`}>→</span>
                 </button>
