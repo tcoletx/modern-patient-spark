@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Advanced LASIK, ZEISS SMILE Pro, and complete eye care from Dr. Shabbir Khambati and Dr. Alisha Khambati. Over 30,000 surgeries performed across Metro Detroit." },
       { name: "author", content: "Lake Lazer Eye Center" },
       { property: "og:title", content: "Lake Lazer Eye Center | LASIK & SMILE Pro in Metro Detroit" },
-      { property: "og:description", content: "Advanced LASIK, ZEISS SMILE Pro, and complete eye care from Dr. Shabbir Khambati and Dr. Alisha Khambati." },
+      { property: "og:description", content: "Advanced LASIK, ZEISS SMILE Pro, and complete eye care from Dr. Shabbir Khambati and Dr. Alisha Khambati. Over 30,000 surgeries performed across Metro Detroit." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lake Lazer Eye Center | LASIK & SMILE Pro in Metro Detroit" },
+      { name: "twitter:description", content: "Advanced LASIK, ZEISS SMILE Pro, and complete eye care from Dr. Shabbir Khambati and Dr. Alisha Khambati. Over 30,000 surgeries performed across Metro Detroit." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/45c44470-927f-405a-b4a4-9d6bc99cddbc/id-preview-80641279--35dae45d-6608-46b0-8c86-cad9dd744444.lovable.app-1782317430875.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/45c44470-927f-405a-b4a4-9d6bc99cddbc/id-preview-80641279--35dae45d-6608-46b0-8c86-cad9dd744444.lovable.app-1782317430875.png" },
     ],
     links: [
       {
