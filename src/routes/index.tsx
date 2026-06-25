@@ -24,10 +24,10 @@ const navItems = [
   "About",
   "LASIK & SMILE Pro",
   "Medical Eye Care",
-  "Cosmetic Services",
-  "Optical Services",
+  "Cosmetic",
+  "Optical",
   "Patient Resources",
-  "Locations & Contact",
+  "Locations",
 ];
 
 const benefits = [
