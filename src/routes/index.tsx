@@ -47,7 +47,6 @@ const benefitPoints = [
 ];
 
 const services = [
-  { name: "SoftTouch LASIK", blurb: "Quick, gentle laser vision correction with an excellent track record." },,
   { name: "SMILE Pro", blurb: "Bladeless, all-laser correction for nearsightedness and astigmatism." },
   { name: "Cataract Surgery", blurb: "Premium lens options to restore crisp, vibrant vision." },
   { name: "Glaucoma Care", blurb: "Early diagnosis, medical management, and laser treatment." },
