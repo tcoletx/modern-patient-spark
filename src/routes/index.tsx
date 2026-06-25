@@ -429,7 +429,7 @@ function Services() {
                 {String(active + 1).padStart(2, "0")} / {String(services.length).padStart(2, "0")}
               </div>
               <h3 className="mt-3 font-display text-3xl font-semibold sm:text-4xl">
-                {services[active].name}
+                SoftTLASIK
               </h3>
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-white/80">
                 {services[active].blurb}
