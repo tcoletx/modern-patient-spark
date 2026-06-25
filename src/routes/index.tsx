@@ -195,6 +195,7 @@ function Hero() {
         src={heroImg}
         alt="A woman enjoying the outdoors with clear, glasses-free vision after LASIK"
         className="absolute inset-0 h-full w-full object-cover object-[100%_center] opacity-90"
+        style={{ transform: "scale(1.25) translateX(8%)", transformOrigin: "right center" }}
         width={1600}
         height={1100}
       />
