@@ -47,7 +47,7 @@ const benefitPoints = [
 ];
 
 const services = [
-  { name: "LASIK", blurb: "Quick, virtually painless laser vision correction with an excellent track record." },
+  { name: "SoftTouch LASIK", blurb: "Quick, virtually painless laser vision correction with an excellent track record." },,
   { name: "SMILE Pro", blurb: "Bladeless, all-laser correction for nearsightedness and astigmatism." },
   { name: "Cataract Surgery", blurb: "Premium lens options to restore crisp, vibrant vision." },
   { name: "Glaucoma Care", blurb: "Early diagnosis, medical management, and laser treatment." },
@@ -401,7 +401,7 @@ function Services() {
           {/* List */}
           <ul className="divide-y divide-white/10 border-y border-white/10">
             {services.map((s, i) => (
-              <li key={s.name}>
+              <li key={s?.name}>
                 <button
                   onClick={() => setActive(i)}
                   onMouseEnter={() => setActive(i)}
@@ -413,7 +413,7 @@ function Services() {
                     <span className={`font-mono text-xs ${active === i ? "text-brand-coral" : "text-white/40"}`}>
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <span className="font-display text-xl sm:text-2xl">{s.name}</span>
+                    <span className="font-display text-xl sm:text-2xl">{s?.name}</span>
                   </span>
                   <span className={`transition ${active === i ? "translate-x-1 text-brand-coral" : "text-white/40"}`}>→</span>
                 </button>
@@ -429,13 +429,13 @@ function Services() {
                 {String(active + 1).padStart(2, "0")} / {String(services.length).padStart(2, "0")}
               </div>
               <h3 className="mt-3 font-display text-3xl font-semibold sm:text-4xl">
-                {services[active].name}
+                {services[active]?.name}
               </h3>
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-white/80">
-                {services[active].blurb}
+                {services[active]?.blurb}
               </p>
               <a href="#" className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-coral px-6 py-3 text-base font-semibold text-white hover:brightness-105 transition">
-                Learn more about {services[active].name}
+                Learn more about {services[active]?.name}
                 <Arrow />
               </a>
             </div>
