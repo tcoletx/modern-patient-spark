@@ -54,7 +54,7 @@ const services = [
   { name: "Medical Eye Care", blurb: "Comprehensive exams and treatment for dry eye, diabetic eye disease, cornea, and retinal conditions." },
   { name: "Eyelid Surgery", blurb: "Blepharoplasty for a refreshed, more youthful appearance." },
   { name: "Optical Shop", blurb: "In-house edging lab with frames for every lifestyle." },
-  { name: "Specialty Contact Lenses", blurb: "Custom scleral lens fittings by Dr. Marcell — non-surgical vision solutions and relief for keratoconus and severe dry eye." },
+  { name: "Specialty Contact Lenses", blurb: "Custom lens fittings by Dr. Marcell — non-surgical vision solutions that provide help for keratoconus, relief from severe dry eye and more." },
 ];
 
 const reviews = [
