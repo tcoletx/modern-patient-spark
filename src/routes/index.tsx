@@ -194,13 +194,13 @@ function Hero() {
       <img
         src={heroImg}
         alt="A woman enjoying the outdoors with clear, glasses-free vision after LASIK"
-        className="absolute inset-0 h-full w-full object-cover object-[100%_center] opacity-90 scale-110 origin-right"
+        className="absolute inset-0 h-full w-full object-cover object-[100%_center] opacity-90"
         width={1600}
         height={1100}
       />
       <div
         className="absolute inset-0"
-        style={{ background: "linear-gradient(100deg, oklch(0.22 0.06 252 / 0.95) 0%, oklch(0.22 0.06 252 / 0.85) 40%, oklch(0.22 0.06 252 / 0.35) 60%, transparent 80%)" }}
+        style={{ background: "linear-gradient(95deg, oklch(0.22 0.06 252 / 0.96) 0%, oklch(0.22 0.06 252 / 0.94) 45%, oklch(0.22 0.06 252 / 0.7) 58%, transparent 78%)" }}
       />
       <div className="relative mx-auto max-w-7xl px-5 py-20 sm:py-28 lg:py-36 lg:px-8">
         <div className="max-w-2xl text-white">
