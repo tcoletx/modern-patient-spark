@@ -270,7 +270,7 @@ function Benefits() {
             </span>
             <h2 className="mt-4 font-display text-4xl font-semibold text-brand-navy sm:text-5xl whitespace-pre-line">
               Why patients choose <em className="not-italic text-brand-coral">SoftTouch LASIK</em>{"\u00a0"}and{"\n"}
-              SMILE Pro{"\u00a0"}at Lake Lazer.{"\n"}
+              <em className="not-italic text-brand-coral">SMILE Pro</em>{"\u00a0"}at Lake Lazer.{"\n"}
             </h2>
             <p className="mt-5 max-w-lg text-lg text-muted-foreground">
               Dreaming of life without contacts? Our free consultations help you discover whether
