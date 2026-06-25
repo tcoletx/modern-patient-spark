@@ -194,7 +194,7 @@ function Hero() {
       <img
         src={heroImg}
         alt="A woman enjoying the outdoors with clear, glasses-free vision after LASIK"
-        className="absolute inset-0 h-full w-full object-cover object-[65%_center] opacity-90"
+        className="absolute inset-0 h-full w-full object-cover object-[90%_center] opacity-90"
         width={1600}
         height={1100}
       />
