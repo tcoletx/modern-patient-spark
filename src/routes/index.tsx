@@ -33,14 +33,14 @@ const navItems = [
 const benefits = [
   { stat: "<15", unit: "min", label: "Quick, in-office procedure" },
   { stat: "20+", unit: "yrs", label: "Of refractive surgery experience" },
-  { stat: "30k", unit: "+", label: "Successful surgeries performed" },
+  { stat: "30k", unit: "+", label: "Surgeries performed" },
   { stat: "100%", unit: "", label: "Bladeless, All-Laser Procedures" },
 ];
 
 const benefitPoints = [
   "Treats nearsightedness, farsightedness & astigmatism",
   "Long-term cost savings vs. glasses & contacts",
-  "Most patients see 20/20 the next day",
+  "Many patients see 20/20 the next day",
   "Freedom from glasses and contacts",
   "Free, no-pressure LASIK consultations",
   "Among the highest success rates in Michigan",
@@ -206,14 +206,14 @@ function Hero() {
         <div className="max-w-2xl text-white">
           <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-brand-coral" />
-            Now offering ZEISS SMILE Pro
+            {"\u00a0\n30,000+ PROCEDURES PERFORMED"}
           </span>
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] sm:text-6xl lg:text-7xl">
-            See the life you've been{" "}
-            <span className="italic text-brand-coral-soft">missing.</span>
+            Big-city technology.{" "}
+            <span className="italic text-brand-coral-soft">Hometown Care.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/80 sm:text-xl">
-            Advanced Laser Vision Correction options from Metro Detroit's trusted refractive surgeons at Lake Lazer Eye Center. More than 30,000 successful procedures and counting...
+            At Lake Lazer Eye Center, you'll find the warmth of a family practice combined with the precision of advanced vision correction technology — because your eyes deserve both.{"\u00a0"}
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a
@@ -231,7 +231,7 @@ function Hero() {
             </a>
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-base text-white/70">
-            <div className="flex items-center gap-2"><Stars /> 4.9 / 5 from 800+ patients</div>
+            <div className="flex items-center gap-2"><Stars /> 4.9 / 5 from 800+ reviews</div>
             <div>Free consultations · Financing available</div>
           </div>
         </div>
