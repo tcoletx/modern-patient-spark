@@ -365,7 +365,7 @@ function Surgeons() {
                     </span>
                   ))}
                 </div>
-                <h3 className="mt-4 font-display text-2xl font-semibold text-brand-navy">{d.name}</h3>
+                <h3 className="mt-4 font-display text-2xl font-semibold text-brand-navy">SoftTLASIK</h3>
                 <p className="text-base font-medium uppercase tracking-wider text-brand-coral">{d.role}</p>
                 <p className="mt-4 text-[15px] leading-relaxed text-muted-foreground">{d.bio}</p>
                 <a href="#" className="mt-6 inline-flex items-center gap-2 text-base font-semibold text-brand-navy hover:text-brand-coral">
