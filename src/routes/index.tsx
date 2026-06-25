@@ -213,8 +213,7 @@ function Hero() {
             <span className="italic text-brand-coral-soft">missing.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/80 sm:text-xl">
-            Advanced LASIK and ZEISS SMILE Pro from Metro Detroit's most trusted refractive surgeons —
-            over 30,000 successful procedures and counting.
+            Advanced Laser Vision Correction options from Metro Detroit's trusted refractive surgeons at Lake Lazer Eye Center. More than 30,000 successful procedures and counting...
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a
