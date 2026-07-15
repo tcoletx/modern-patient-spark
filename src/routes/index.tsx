@@ -6,7 +6,8 @@ const drShabbir = drShabbirAsset.url;
 import locClintonAsset from "@/assets/loc-clinton.jpg.asset.json";
 import locSouthfieldAsset from "@/assets/loc-southfield.jpg.asset.json";
 import locMilfordAsset from "@/assets/loc-milford.jpg.asset.json";
-import drAlisha from "@/assets/dr-alisha.jpg";
+import drAlishaAsset from "@/assets/Alisha_Khambati_2026.jpg.asset.json";
+const drAlisha = drAlishaAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
